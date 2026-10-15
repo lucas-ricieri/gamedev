@@ -1,0 +1,6 @@
+Use case: background-extraction
+Asset type: transparent 2D game weapon sprite.
+Input image 1 is the EDIT TARGET and exact sword design to preserve.
+Extract precisely this ornate fantasy sword from its light gray background. Preserve its distinctive long asymmetrical steel blade with pale icy cyan sharp edge, dark navy wavy inset, carved swirl patterns, elaborate hooked blue-gray crossguard, dark wrapped handle with silver bands, little copper accents, and pointed faceted pommel. Keep its illustrated black outlines and the original shape and palette. Do not redesign it or make a generic sword.
+Rotate the complete sword so it is HORIZONTAL, hilt and pommel on the LEFT, pointed blade tip on the RIGHT. The grip's center should be horizontally aligned with the blade center. Whole sword fully visible, no cropping, no added objects. Single sword only, centered vertically, wide composition with small clear padding around all extremities, approximately 3:1 landscape aspect ratio.
+Actual transparent alpha background, no backdrop, no drop shadow, no checkerboard drawn in the image. No text, no watermark, no hands or character, no animation frames. This is the static weapon art that will be rotated and animated by the game engine.

@@ -1,0 +1,12 @@
+extends RefCounted
+class_name HuntLevels
+
+const TILE = 64
+const LEVELS = [
+ {"name":"Clareira dos Espinhos", "subtitle":"Aprenda a caçar. Encontre a chave na clareira.", "color":"54745e", "floor":"273d37", "wall":"182c29", "boss":"Javali Ancestral", "rooms":[Rect2i(2,3,9,8),Rect2i(15,3,9,8),Rect2i(28,2,11,10)], "links":[[0,1],[1,2]], "gate":1, "size":Vector2i(42,16), "enemies":["stalker"], "hazards":[], "rate":5.0},
+ {"name":"Pântano das Lanternas", "subtitle":"A lama freia seus passos. Destrua os ninhos.", "color":"82905b", "floor":"343e33", "wall":"232d29", "boss":"Matriarca do Brejo", "rooms":[Rect2i(2,2,9,8),Rect2i(15,2,9,8),Rect2i(15,15,9,8),Rect2i(28,14,11,10)], "links":[[0,1],[1,2],[2,3]], "gate":2, "size":Vector2i(42,28), "enemies":["stalker","weaver"], "hazards":["slow"], "rate":4.8},
+ {"name":"Galerias do Eco", "subtitle":"Sentinelas atiram em leque. Use as paredes.", "color":"b08c65", "floor":"393438", "wall":"28252f", "boss":"Guardião das Galerias", "rooms":[Rect2i(2,2,9,8),Rect2i(15,2,9,8),Rect2i(28,2,9,8),Rect2i(28,15,11,10)], "links":[[0,1],[1,2],[2,3]], "gate":2, "size":Vector2i(42,28), "enemies":["stalker","archer"], "hazards":["damage"], "rate":4.5},
+ {"name":"Santuário da Geada", "subtitle":"Gelo e flechas. Role através das ameaças.", "color":"85aaba", "floor":"303d4b", "wall":"232d3e", "boss":"Cervo de Inverno", "rooms":[Rect2i(2,15,9,8),Rect2i(2,2,9,8),Rect2i(15,2,9,8),Rect2i(28,2,11,11)], "links":[[0,1],[1,2],[2,3]], "gate":2, "size":Vector2i(42,28), "enemies":["stalker","archer","brute"], "hazards":["slow","damage"], "rate":4.0},
+ {"name":"Forja das Cinzas", "subtitle":"Busque os três amuletos. Evite as brasas.", "color":"c77c54", "floor":"443732", "wall":"302725", "boss":"Colosso da Forja", "rooms":[Rect2i(2,2,9,8),Rect2i(2,15,9,8),Rect2i(15,15,9,8),Rect2i(28,14,11,10),Rect2i(15,2,9,8)], "links":[[0,1],[1,2],[2,3],[2,4]], "gate":2, "size":Vector2i(42,28), "enemies":["stalker","archer","brute","weaver"], "hazards":["damage","slow"], "rate":3.8},
+ {"name":"Cidadela do Eclipse", "subtitle":"A última caçada. Quebre o coração da maldição.", "color":"ab8cae", "floor":"363042", "wall":"262334", "boss":"O Rei sem Aurora", "rooms":[Rect2i(2,3,9,8),Rect2i(15,3,9,8),Rect2i(15,16,9,8),Rect2i(28,16,11,10),Rect2i(28,2,11,11)], "links":[[0,1],[1,2],[2,3],[3,4]], "gate":3, "size":Vector2i(42,29), "enemies":["stalker","archer","brute","weaver"], "hazards":["slow","damage"], "rate":3.5}
+]
